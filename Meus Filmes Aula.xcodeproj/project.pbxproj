@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB367C3927A23275003A313E /* FilmeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB367C3827A23275003A313E /* FilmeCelula.swift */; };
+		BB45B5C227A71ABB003A3196 /* DetailsFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB45B5C127A71ABB003A3196 /* DetailsFilmeViewController.swift */; };
 		BBE0889027A20B5C00D10188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0888F27A20B5C00D10188 /* AppDelegate.swift */; };
 		BBE0889227A20B5C00D10188 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0889127A20B5C00D10188 /* SceneDelegate.swift */; };
 		BBE0889427A20B5C00D10188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE0889327A20B5C00D10188 /* ViewController.swift */; };
 		BBE0889727A20B5C00D10188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE0889527A20B5C00D10188 /* Main.storyboard */; };
 		BBE0889927A20B5F00D10188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE0889827A20B5F00D10188 /* Assets.xcassets */; };
 		BBE0889C27A20B5F00D10188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE0889A27A20B5F00D10188 /* LaunchScreen.storyboard */; };
+		BBE088A427A20C6F00D10188 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE088A327A20C6F00D10188 /* Filme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB367C3827A23275003A313E /* FilmeCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeCelula.swift; sourceTree = "<group>"; };
+		BB45B5C127A71ABB003A3196 /* DetailsFilmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFilmeViewController.swift; sourceTree = "<group>"; };
 		BBE0888C27A20B5C00D10188 /* Meus Filmes Aula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meus Filmes Aula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE0888F27A20B5C00D10188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBE0889127A20B5C00D10188 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		BBE0889827A20B5F00D10188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE0889B27A20B5F00D10188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBE0889D27A20B5F00D10188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE088A327A20C6F00D10188 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				BBE0888F27A20B5C00D10188 /* AppDelegate.swift */,
 				BBE0889127A20B5C00D10188 /* SceneDelegate.swift */,
+				BBE088A327A20C6F00D10188 /* Filme.swift */,
+				BB367C3827A23275003A313E /* FilmeCelula.swift */,
+				BB45B5C127A71ABB003A3196 /* DetailsFilmeViewController.swift */,
 				BBE0889327A20B5C00D10188 /* ViewController.swift */,
 				BBE0889527A20B5C00D10188 /* Main.storyboard */,
 				BBE0889827A20B5F00D10188 /* Assets.xcassets */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE0889427A20B5C00D10188 /* ViewController.swift in Sources */,
+				BB367C3927A23275003A313E /* FilmeCelula.swift in Sources */,
 				BBE0889027A20B5C00D10188 /* AppDelegate.swift in Sources */,
 				BBE0889227A20B5C00D10188 /* SceneDelegate.swift in Sources */,
+				BB45B5C227A71ABB003A3196 /* DetailsFilmeViewController.swift in Sources */,
+				BBE088A427A20C6F00D10188 /* Filme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
